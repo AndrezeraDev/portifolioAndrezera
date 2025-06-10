@@ -7,9 +7,10 @@ function Body() {
                     Olá! <br /> <p className="text-green-500 italic">Eu sou André Souza</p>
                     <p>Desenvolvedor Front-End</p>
                 </h1>
-                <button className="bg-green-500 text-xl font-bold  text-black px-6 py-2 rounded-full
-                                hover:bg-green-600 transition duration-300 cursor-pointer mt-2.5">
-                    Ver Projetos
+                <button 
+                onClick={() => window.location.href = "/projetos"}
+                className="bg-green-500 text-xl font-bold  text-black px-6 py-2 rounded-full hover:bg-green-600 transition duration-300 cursor-pointer mt-2.5">
+                Ver Projetos
                 </button>
 
             </div>
