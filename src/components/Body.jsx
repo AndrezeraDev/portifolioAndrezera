@@ -1,3 +1,5 @@
+import Tecnologies from "./Tecnologies.jsx";
+
 function Body() {
     return (
         <div className="bg-gray-900 w-full h-screen flex items-center justify-between px-16">
