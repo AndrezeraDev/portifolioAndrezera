@@ -16,7 +16,6 @@ function Projetos() {
                     <h2>Projeto 3</h2>
                 </div>
             </div>
-            <Tecnologies />
         </div>
     )
 }
