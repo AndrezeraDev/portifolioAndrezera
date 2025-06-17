@@ -38,8 +38,15 @@ function Tecnologies(){
                     <img className="w-24 h-24 object-cover shadow-lg hover:scale-105 cursor-pointer p-4 border-2 border-green-500 rounded-2xl transition-all duration-300" 
                     src="./src/assets/images/icons/bootstrap.svg" alt="logo bootstrap" />
                 </div>
+                <div className="bg-gray-800 p-4 rounded-2xl">
+                    <img className="w-24 h-24 object-cover shadow-lg hover:scale-105 cursor-pointer p-4 border-2 border-green-500 rounded-2xl transition-all duration-300" 
+                    src="./src/assets/images/icons/wordpress.svg" alt="logo Wordpress" />
+                </div>
+                <div className="bg-gray-800 p-4 rounded-2xl">
+                    <img className="w-24 h-24 object-cover shadow-lg hover:scale-105 cursor-pointer p-4 border-2 border-green-500 rounded-2xl transition-all duration-300" 
+                    src="./src/assets/images/icons/elementor.svg" alt="logo Elementor" />
+                </div>
             </div>
-            <button>counter</button>
         </div>
     )
 }
