@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Projetos from './pages/Projetos.jsx'
+import Contato from './pages/Contato.jsx'
+
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/projetos",
     element: <Projetos />,
+  },
+  {
+    path: "/contato",
+    element: <Contato />,
   }
 ]);
 

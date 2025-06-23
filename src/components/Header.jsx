@@ -8,7 +8,7 @@ function Header(){
                 <li className="hover:text-green-500 text-white text-xl transition-all"><a href="/">Home</a></li>
                 <li className="hover:text-green-500 text-white text-xl transition-all  "><a href="/projetos">Projetos</a></li>
                 <li className="hover:text-green-500 text-white text-xl transition-all"><a href="">Sobre</a></li>
-                <li className="hover:text-green-500 text-white text-xl transition-all"><a href="">Contato</a></li>
+                <li className="hover:text-green-500 text-white text-xl transition-all"><a href="/contato">Contato</a></li>
             </ul>
         </div>
 
