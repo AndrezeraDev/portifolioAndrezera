@@ -1,0 +1,6 @@
+git add .
+git commit -m "alteração no footer"
+git push
+git push -u origin main
+git status
+git add .
