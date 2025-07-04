@@ -1,12 +1,12 @@
 function Footer(){
     return(
         <footer className="w-full bg-gray-900 mt-auto">
-            <div className="max-w-6xl mx-auto px-6 py-8">
+            <div className="max-w-full w-full container md:mx-auto mx-auto px-6 py-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                     
                     {/* Seção Redes Sociais */}
                     <div className="text-center md:text-left">
-                        <h3 className="text-lg font-semibold text-white mb-4">Redes Sociais</h3>
+                        <h3 className="text-xl  font-mono font-semibold text-white mb-4">Redes Sociais</h3>
                         <div className="space-y-2">
                             <div>
                                 <a 
@@ -49,7 +49,7 @@ function Footer(){
 
                     {/* Seção Direita */}
                     <div className="text-center md:text-right">
-                        <h3 className="text-lg font-semibold text-white mb-4">Contato</h3>
+                        <h3 className="text-xl font-mono font-semibold text-white mb-4">Contato</h3>
                         <div className="space-y-2 text-sm text-gray-300">
                             <div>andrezera.dev@gmail.com</div>
                             <div>+55 (54) 98125-3494</div>
