@@ -4,7 +4,8 @@ function Projetos() {
   return (
     <div>
       <Header />
-      <div className="bg-gray-900 w-full min-h-screen flex flex-wrap justify-center items-center gap-6 px-8 py-12">
+      <h1 className="text-white text-3xl font-bold font-mono text-center mt-8">Projetos Pessoais</h1>
+      <div className="bg-gray-900 w-full  flex flex-wrap justify-center items-center gap-6 px-8 py-12">
         
         {/* Projeto 1 - PICON */}
         <div className="relative w-full md:w-[30%] h-[300px] rounded-2xl overflow-hidden group cursor-pointer border-2 hover:border-green-500 transition-all duration-300">
@@ -17,7 +18,7 @@ function Projetos() {
           <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
             <h3 className="text-xl font-bold mb-2">PICON - Formulário Médico</h3>
             <p className="text-sm">
-              Projeto para corretora com formulário de checklist para facilitar o atendimento aos clientes antes da cotação.
+              Projeto real para corretora de seguros com um formulário de checklist para facilitar o atendimento aos clientes antes da cotação.
               Desenvolvido com HTML, CSS e JavaScript + envio de e-mail após preenchimento com EmailJs + Area administrativa com login em PHP
             </p>
             <a
@@ -41,7 +42,7 @@ function Projetos() {
           <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center items-center text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
             <h3 className="text-xl font-bold mb-2">PrevTempo</h3>
             <p className="text-sm">
-              Aplicação que consulta a previsão do tempo de uma cidade. Contruido com HTML, CSS e JavaScript + Node consumindo API do OpenWeather.
+              Aplicação que consulta a previsão do tempo de uma cidade. Construido com HTML, CSS e JavaScript consumindo API da OpenWeather.
             </p>
             <a
               href="https://previsao-tempo-api-gamma.vercel.app/"

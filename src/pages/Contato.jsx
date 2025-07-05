@@ -5,7 +5,7 @@ function Contato() {
         <div className="bg-gray-900 min-h-screen">
             <Header />
             <div className="w-full flex justify-center mb-0 pb-0 mt-2 ">
-                <h2 className="text-white p-5 text-2xl font-mono">Preencha o formulário e retornarei em breve. </h2>
+                <h2 className="text-white p-2 text-2xl font-mono animate-typing overflow-hidden whitespace-nowrap border-r-4 border-green-500 pr-5 ">Preencha o formulário e entraremos em contato com você. </h2>
             </div>
             <div className="flex justify-center items-center h-2/3" >
                 <form className="bg-slate-400 flex flex-col w-100 p-6 rounded-xl shadow-lg space-y-4">
@@ -35,6 +35,7 @@ function Contato() {
                 </form>
             </div>
         </div>
+        
     );
 }
 

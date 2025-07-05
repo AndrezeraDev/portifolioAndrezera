@@ -11,7 +11,7 @@ function Footer(){
                             <div>
                                 <a 
                                     href="https://www.instagram.com/andrezeradev/" 
-                                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                                    className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -21,7 +21,7 @@ function Footer(){
                             <div>
                                 <a 
                                     href="https://www.linkedin.com/in/andre-luis-de-souza-33ba7a268/" 
-                                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                                    className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline"
                                 >
                                     LinkedIn
                                 </a>
@@ -29,7 +29,7 @@ function Footer(){
                             <div>
                                 <a 
                                     href="https://github.com/AndrezeraDev" 
-                                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                                    className="text-gray-300 hover:text-white transition-colors duration-200 hover:underline"
                                 >
                                     GitHub
                                 </a>
