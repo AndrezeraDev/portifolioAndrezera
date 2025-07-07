@@ -7,7 +7,7 @@ function Header(){
             <ul className="flex gap-4 ">
                 <li className="hover:text-green-500 text-white text-xl transition-all font-mono"><a href="/">Home</a></li>
                 <li className="hover:text-green-500 text-white text-xl transition-all font-mono  "><a href="/projetos">Projetos</a></li>
-                <li className="hover:text-green-500 text-white text-xl transition-all font-mono" ><a href="">Sobre</a></li>
+                <li className="hover:text-green-500 text-white text-xl transition-all font-mono" ><a href="#sobre">Sobre</a></li>
                 <li className="hover:text-green-500 text-white text-xl transition-all font-mono"><a href="/contato">Contato</a></li>
             </ul>
         </div>

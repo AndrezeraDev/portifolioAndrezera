@@ -2,6 +2,7 @@ import Body from './components/Body'
 import Header from './components/Header'
 import Tecnologies from './components/Tecnologies'
 import Footer from './components/Footer'
+import Curriculo from './components/Curriculo'  
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
       <Header />
       <Body />
       <Tecnologies />
+      <Curriculo />      
       <Footer />
+
     </>
   )
 }
